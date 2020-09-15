@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>STUDENT FORM</title>
+</head>
+<body>
+<form method ="get">
+student name 
+<input name ="name" type ="text" size ="20" maxlength ="25">
+<br><br>
+roll number 
+<input name ="rollno" type ="number" size="10" maxlength="20">
+<br><br>
+<label for="sex">SEX:</label> 
+<input id="sex" name ="sex" type ="radio" value ="m">male
+<input id="sex" name ="sex" type ="radio" value ="f">female
+<!--we should have the name attribute in both the input tags of the radio button same so that they can link to the same question. 
+otherwise we would be selecting all the radio buttons -->
+<br><br>
+fee status 
+<input name ="fee" type ="radio" value ="y">yes
+<input name ="fee" type ="radio" value ="n">no
+<br><br>
+course
+<select name ="course" size="1">
+<option>select
+<option>Btech
+<option>MCA
+<option>BCA
+</select>
+<br><br>
+remarks<textarea name ="remarks" rows="2" cols="20">
+</textarea>
+<br>
+<input type ="submit" name ="register now" value ="submit data">
+<input type ="reset" name ="cancel data" value ="clear data">
+</form>
+</body>
+</html>
